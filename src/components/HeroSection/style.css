@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.hero-section {
+	display: flex;
+	margin: 0 auto;
+	padding: 70px 0 250px;
+	justify-content: center;
+	align-items: center;
+	background-color: #e4f4fe;
+	color: #252b42;
+	font-family: "Montserrat", sans-serif;
+}
+
+.hero-info {
+	width: 40vw;
+}
+
+.hero-info h1 {
+	font-size: 4rem;
+	font-weight: 900;
+	font-family: "Open Sans", sans-serif;
+	width: 30vw;
+}
+
+.hero-txt-highlight {
+	color: #539ef7;
+}
+
+.hero-desc {
+	margin: 3rem 0;
+	color: #737373;
+	font-size: 1.4rem;
+	letter-spacing: 0.2px;
+	width: 30vw;
+}
+
+.hero-btns {
+	display: flex;
+	justify-content: space-between;
+	width: 30vw;
+	margin: 4rem 0;
+}
+
+.hero-btns button {
+	display: block;
+	font-size: 1.3rem;
+	font-weight: bold;
+	padding: 1rem 40px;
+	border: none;
+	border-radius: 30px;
+	width: 13vw;
+	box-shadow: 0px 5px 10px -0 rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 5px 10px -0 rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: -0px 5px 10px -0 rgba(0, 0, 0, 0.3);
+}
+
+.hero-btns button:hover {
+	scale: 1.1;
+	transition: 0.3s;
+}
+
+.hero-btn-primary {
+	background-color: #539ef7;
+	color: #fff;
+}
+
+.hero-btn-secondary {
+	background-color: #fff;
+}
+
+.hero-icons {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 30vw;
+}
+
+.hero-icon-desc {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.hero-img-wrapper {
+	position: relative;
+}
+
+.hero-img {
+	position: relative;
+	z-index: 5;
+	width: 35vw;
+	height: auto;
+}
+
+.hero-img-wrapper::before {
+	content: "";
+	height: 35vw;
+	width: 35vw;
+	z-index: 0;
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+	border-radius: 50%;
+	background-color: #42836e !important;
+}

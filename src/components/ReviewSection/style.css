@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.review-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: "Montserrat", sans-serif;
+	gap: 2rem;
+	padding: 3rem 0;
+}
+.review-section h3 {
+	font-family: "Open Sans", sans-serif;
+	font-size: 3rem;
+}
+
+.review-comments {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	padding: 3rem 0;
+}
+
+.review-comments img {
+	display: block;
+}
+
+.review-comments p {
+	width: 30vw;
+	text-align: center;
+}
+
+.review-paging {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+}
+
+.review-paging-btn0 {
+	border-radius: 50%;
+	width: 0.8rem;
+	height: 0.8rem;
+	background-color: #e1f4ff;
+}
+
+.review-paging-btn1 {
+	border-radius: 50%;
+	width: 1rem;
+	height: 1rem;
+	background-color: #539ef7;
+}

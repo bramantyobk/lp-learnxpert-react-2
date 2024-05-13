@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.info-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5rem;
+	margin: 0 auto;
+	padding-bottom: 5rem;
+	width: 80vw;
+	font-family: "Montserrat", sans-serif;
+}
+
+.info-section h3 {
+	font-family: "Open Sans", sans-serif;
+	font-size: 2.5rem;
+}
+
+.info-image-container {
+	position: relative;
+	width: 450px;
+	height: 600px;
+}
+
+.info-image {
+	position: relative;
+	top: 3rem;
+	right: 3rem;
+	left: 3rem;
+	bottom: 3rem;
+	height: 500px;
+	z-index: 5;
+}
+
+.info-image-container::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	width: 10rem;
+	height: 10rem;
+	background-color: #e4f4fe;
+}
+
+.info-image-container::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 0;
+	width: 10rem;
+	height: 10rem;
+	background-color: #dbf0cf;
+}
+
+.info-description {
+	width: 35vw;
+}
+
+.info-title p {
+	color: #737373;
+	margin: 1.5rem 0;
+	width: 35vw;
+}
+
+.info-cards {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	gap: 1.4rem;
+	margin-top: 3rem;
+}
+
+.info-card {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.2rem;
+	width: 30vw;
+}
+
+.info-card-primary {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5rem;
+	color: #fff;
+	background-color: #252b42;
+	border-radius: 1.5rem;
+	width: 30vw;
+}
+
+.info-card img {
+	display: block;
+}
+
+.info-card-description {
+	width: 21vw;
+}
+
+.info-card-description h4 {
+	margin-bottom: 0.5rem;
+}

@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.cta-section {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: #e4f4fe;
+	padding: 4.5rem 0;
+	font-family: "Montserrat", sans-serif;
+}
+
+.cta-description {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	width: 30vw;
+}
+
+.cta-description h3 {
+	font-family: "Open Sans", sans-serif;
+	font-size: 2.5rem;
+}
+
+.cta-description p {
+	color: #737373;
+}
+
+.cta-btn {
+	display: block;
+	font-size: 1.3rem;
+	font-weight: bold;
+	padding: 1rem 40px;
+	border: none;
+	border-radius: 30px;
+	width: 13vw;
+	color: #fff;
+	background-color: #539ef7;
+	box-shadow: 0px 5px 10px -0 rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 5px 10px -0 rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: -0px 5px 10px -0 rgba(0, 0, 0, 0.3);
+}
+
+.cta-btn:hover {
+	scale: 1.1;
+	transition: 0.3s;
+}

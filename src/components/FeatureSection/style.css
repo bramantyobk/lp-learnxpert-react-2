@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.feature-cards {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -150px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 1rem;
+}
+
+.feature-cards-wrapper {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 80vw;
+}
+
+.feature-card {
+	text-align: center;
+	color: #fff;
+	background-color: #262b40;
+	border-radius: 8px;
+	padding: 2rem 1.5rem;
+}
+
+.feature-card h4 {
+	margin: 1rem;
+}
+
+.feature-card p {
+	width: 20vw;
+	margin: 1rem;
+	font-weight: 300;
+}
